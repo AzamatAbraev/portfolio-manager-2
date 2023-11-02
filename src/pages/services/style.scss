@@ -1,0 +1,115 @@
+.service {
+
+  &__container {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__main {
+    padding-top: 50px;
+
+    &__title {
+      margin-bottom: 50px;
+      font-size: 50px;;
+    }
+  }
+
+  &__card {
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__row {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    &__title {
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.card-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  p, h3 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    min-width: 80px !important;
+  }
+}
+
+.profile-photo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: cover !important;
+  object-position: top;
+}
+
+.service .ant-card {
+  width: 100% !important;
+}
+
+
+.sidebar {
+  padding-top: 50px;
+
+  a {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+}
+
+.ant-form * {
+  font-family: 'Poppins' !important;
+}
+
+.service .ant-form-item-required::before {
+  content: "" !important;
+}
+
+.smallVersion {
+  width: 150px !important;
+}
+
+.sidebar-item {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #000;
+  opacity: 0.8;
+  .icon {
+    color: #001529;
+  }
+}
+
+.sidebar-title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.service__skills {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1150px) {
+  .service__row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .service__main {
+    width: 100%;
+  }
+}

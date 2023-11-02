@@ -1,0 +1,17 @@
+#login-user {
+  background-color: #1677ff;
+  height: 100vh;
+}
+
+#login-user .user-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.user-login-form {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
